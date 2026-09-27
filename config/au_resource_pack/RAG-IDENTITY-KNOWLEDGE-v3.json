@@ -1,0 +1,393 @@
+{
+  "schema": "rag-knowledge-v3",
+  "id": "RAG-IDENTITY-KNOWLEDGE-v3",
+  "version": "3.0",
+  "units": [
+    {
+      "id": "privacy-disclosure",
+      "partition": "domain_safe",
+      "title": "Privacy, confidentiality and disclosure",
+      "content": "Under Australia's Privacy Act framework, secondary disclosure needs consent or an applicable exception. Serious-threat disclosure requires a reasonable belief in necessity and consent being unreasonable or impracticable to obtain. Additional state or territory rules may apply.",
+      "tags": [
+        "privacy",
+        "confidentiality",
+        "disclosure",
+        "consent",
+        "records",
+        "family"
+      ],
+      "source": {
+        "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/guide-to-health-privacy/chapter-3-using-or-disclosing-health-information",
+        "publisher": "OAIC",
+        "jurisdiction": "Australia; entities covered by the Privacy Act",
+        "excerpt": "Chapter 3: secondary purpose; Serious threat. Short anchor: 'unreasonable or impracticable'.",
+        "limitation": "Permission is not a universal duty to disclose; local law and confidentiality obligations still require checking.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "071ef9ca3a7aa1b53edf8446495908d2e6c9e281463a29f160c57f04eb7db7cf"
+    },
+    {
+      "id": "privacy-minors",
+      "partition": "domain_safe",
+      "title": "Children, consent and parental access",
+      "content": "OAIC health-record guidance distinguishes children who can make their own access request from those who need a parent or guardian to act for them. Where the child has capacity, the parent should ordinarily be advised that the child needs to make the request.",
+      "tags": [
+        "children",
+        "minor",
+        "teenage",
+        "daughter",
+        "parent",
+        "confidentiality",
+        "privacy",
+        "records"
+      ],
+      "source": {
+        "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/guide-to-health-privacy/chapter-4-giving-access-to-health-information",
+        "publisher": "OAIC",
+        "jurisdiction": "Australia; Privacy Act health information access",
+        "excerpt": "Chapter 4, Children: 'the child has capacity'.",
+        "limitation": "Health-record access guidance, not a universal rule for treatment consent, parental rights or mandatory reporting.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "19e76d03c44b6627880a0bfc167ae1aac3972735955a0270727c92da55910985"
+    },
+    {
+      "id": "capacity",
+      "partition": "domain_safe",
+      "title": "Decision-making capacity and supported consent",
+      "content": "RANZCP ethics guidance for psychiatry recognises that capacity can vary with the decision and fluctuate over time. It supports assisting the person's own decision-making and considering their wishes when substitute consent is necessary.",
+      "tags": [
+        "capacity",
+        "cognitive",
+        "elderly",
+        "consent",
+        "competency",
+        "dementia",
+        "assessment"
+      ],
+      "source": {
+        "url": "https://www.ranzcp.org/getmedia/2e090981-cdd2-4dee-a317-f8718bc7dc47/ranzcp-code-of-ethics.pdf",
+        "publisher": "RANZCP",
+        "jurisdiction": "Australia and New Zealand; psychiatry",
+        "excerpt": "Code 5.4-5.7: 'capacity may fluctuate'.",
+        "limitation": "Does not establish a legal incompetence test, guardianship authority or a jurisdiction-specific substitute decision hierarchy.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "7ff81d660721590b3fda3ab02f969ed497fff5d6790a9dc7a93e270e4d077a67"
+    },
+    {
+      "id": "clinical-scope",
+      "partition": "domain_safe",
+      "title": "Clinical expertise, referral and continuity",
+      "content": "RANZCP guidance asks psychiatrists to recognise expertise limits and consult suitable colleagues when needed. It also supports coordinated care and suitable alternative arrangements when a referral is declined.",
+      "tags": [
+        "clinical",
+        "specialist",
+        "psychiatrist",
+        "geriatric",
+        "referral",
+        "rural",
+        "trainee",
+        "expertise",
+        "older"
+      ],
+      "source": {
+        "url": "https://www.ranzcp.org/getmedia/2e090981-cdd2-4dee-a317-f8718bc7dc47/ranzcp-code-of-ethics.pdf",
+        "publisher": "RANZCP",
+        "jurisdiction": "Australia and New Zealand; psychiatry",
+        "excerpt": "Code 3.3, 3.10-3.11: 'limits of their expertise'.",
+        "limitation": "Does not prove any particular specialist's competence, availability or suitability; no medication or referral eligibility protocol.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "b4e3d7657f78f4513363d647e8550e7991eb273efb1af749169f3c630953ecc0"
+    },
+    {
+      "id": "forensic",
+      "partition": "domain_safe",
+      "title": "Forensic assessment purpose and unbiased diagnosis",
+      "content": "For Australian doctors conducting third-party medico-legal assessments, the usual therapeutic relationship does not apply. Medical Board guidance requires explaining the assessment role and purpose and providing an impartial report. This does not determine a court's competency or custody test.",
+      "tags": [
+        "forensic",
+        "court",
+        "custody",
+        "competency",
+        "defendant",
+        "report",
+        "religion",
+        "evaluation"
+      ],
+      "source": {
+        "url": "https://www.medicalboard.gov.au/Codes%20Guidelines-Policies/Code-of-conduct.aspx",
+        "publisher": "Medical Board of Australia",
+        "jurisdiction": "Australia; doctors",
+        "excerpt": "Code 10.8.1-10.8.4: 'Providing an impartial report'.",
+        "limitation": "Doctor-specific professional guidance, not a jurisdiction-specific competency test or direct regulation of psychologists.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "e30b1e57988eb4bfce0e28afb67f621c3f4d18bb89ff1de858a2b04dc4f4e6d9"
+    },
+    {
+      "id": "religious-care",
+      "partition": "domain_safe",
+      "title": "Religious preferences and treatment discussions",
+      "content": "RANZCP psychiatry guidance respects religion and patient preferences while permitting refusal of harmful or unhelpful treatment. Consent discussions include risks and alternatives; this does not establish that a fasting-related medication change is safe.",
+      "tags": [
+        "religious",
+        "religion",
+        "ramadan",
+        "fasting",
+        "medication",
+        "muslim",
+        "prayers",
+        "consent"
+      ],
+      "source": {
+        "url": "https://www.ranzcp.org/getmedia/2e090981-cdd2-4dee-a317-f8718bc7dc47/ranzcp-code-of-ethics.pdf",
+        "publisher": "RANZCP",
+        "jurisdiction": "Australia and New Zealand; psychiatry",
+        "excerpt": "Code 1.1, 3.4, 5.1: 'reasonable alternatives'.",
+        "limitation": "No dosing recommendation, guarantee about fasting or treatment exemption; patient-specific prescribing assessment remains necessary.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "790334ef0293f5163769c711fb4fab5efd3af82708a031c6502f640a1183640b"
+    },
+    {
+      "id": "reports",
+      "partition": "domain_safe",
+      "title": "Accurate clinical records, diagnosis and reports",
+      "content": "Australian medical guidance calls for accurate clinical records covering findings, diagnosis and management. Reports and certificates require reasonable verification, honesty and stated knowledge limits; relevant information should not be deliberately omitted to achieve a desired outcome.",
+      "tags": [
+        "reports",
+        "report",
+        "certificate",
+        "letter",
+        "fitness",
+        "evaluation",
+        "assessment",
+        "documentation",
+        "work",
+        "records",
+        "diagnosis",
+        "clinical",
+        "chart"
+      ],
+      "source": {
+        "url": "https://www.medicalboard.gov.au/Codes%20Guidelines-Policies/Code-of-conduct.aspx",
+        "publisher": "Medical Board of Australia",
+        "jurisdiction": "Australia; doctors",
+        "excerpt": "Code 10.5.1 and 10.9: 'honest and not misleading'.",
+        "limitation": "Professional standard for doctors, not a claim that it directly regulates psychologists or determines any court or workplace outcome.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "7351f121ccb16201ca6b0efd6dbb0ae44108db85908f3399e0d952450f29ddae"
+    },
+    {
+      "id": "conflicts",
+      "partition": "domain_safe",
+      "title": "Financial interests and competing professional roles",
+      "content": "Medical Board guidance for Australian doctors requires identifying and managing interests that could compromise care, including perceived conflicts. Referrals should serve patients' interests; commercial arrangements must not adversely influence treatment.",
+      "tags": [
+        "conflicts",
+        "financial",
+        "board",
+        "grant",
+        "donor",
+        "private",
+        "referrals",
+        "gifts",
+        "funding",
+        "pressure"
+      ],
+      "source": {
+        "url": "https://www.medicalboard.gov.au/Codes%20Guidelines-Policies/Code-of-conduct.aspx",
+        "publisher": "Medical Board of Australia",
+        "jurisdiction": "Australia; doctors",
+        "excerpt": "Code 10.12: 'financial, professional or personal interests'.",
+        "limitation": "No automatic finding of bribery, misconduct or mandatory reporting; specific duties depend on the facts and applicable law.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "b15c04f30ff5fef88ddeaed3f16de98112205de343c7ae522fb4732682002aca"
+    },
+    {
+      "id": "cultural-choice",
+      "partition": "domain_safe",
+      "title": "Cultural safety and individual preferences",
+      "content": "Australian medical guidance emphasises self-determined healthcare, respect for cultural and religious diversity, and avoiding stereotypes. Cultural safety depends on the individual's experience; respecting culture does not require providing unsafe or inappropriate care.",
+      "tags": [
+        "cultural",
+        "aboriginal",
+        "religion",
+        "religious",
+        "identity",
+        "interpreter",
+        "muslim",
+        "bias",
+        "discrimination"
+      ],
+      "source": {
+        "url": "https://www.medicalboard.gov.au/Codes%20Guidelines-Policies/Code-of-conduct.aspx",
+        "publisher": "Medical Board of Australia",
+        "jurisdiction": "Australia; doctors",
+        "excerpt": "Code 4.7-4.8: 'self-determined decision-making'.",
+        "limitation": "Does not require automatically involving family, an interpreter or cultural liaison against an individual's wishes; assess communication needs individually.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "e4d32cd21748daa9a3ad7b776a644fa8599a5ae2a4c4b0746320d65809b0825c"
+    },
+    {
+      "id": "workplace",
+      "partition": "domain_safe",
+      "title": "Workplace assessment and disability adjustments",
+      "content": "Australian Human Rights Commission guidance focuses on actual ability to perform a job's inherent requirements, rather than disability stereotypes. Adjustments can support that ability; unjustifiable hardship is a qualified exception that requires consideration and discussion.",
+      "tags": [
+        "workplace",
+        "employment",
+        "disability",
+        "adjustments",
+        "accommodations",
+        "fitness",
+        "hiring",
+        "employee",
+        "job"
+      ],
+      "source": {
+        "url": "https://humanrights.gov.au/know-your-rights/rights-of-individuals/disability-rights/disability-discrimination-and-the-workplace",
+        "publisher": "Australian Human Rights Commission",
+        "jurisdiction": "Australia; employment and disability",
+        "excerpt": "Workplace adjustments and hardship: 'inherent requirements'.",
+        "limitation": "Not a case-specific fitness clearance, employment law opinion or exhaustive account of discrimination exceptions.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "ebded0438e26499c0f2e9f73199772866b9634139669f7b699ac05ba057e44b1"
+    },
+    {
+      "id": "care-process",
+      "partition": "domain_safe",
+      "title": "Individual care planning and follow-up",
+      "content": "Australia's comprehensive-care standard supports assessment and an individual plan developed with the patient: agreed goals, chosen support people, appropriate follow-up referrals, and review when needs change. A plan should reflect available evidence and the patient's preferences.",
+      "tags": [
+        "care",
+        "patient",
+        "plan",
+        "referral",
+        "follow-up",
+        "support",
+        "assessment",
+        "discharge"
+      ],
+      "source": {
+        "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/comprehensive-care-standard",
+        "publisher": "Australian Commission on Safety and Quality in Health Care",
+        "jurisdiction": "Australia; NSQHS comprehensive care",
+        "excerpt": "Actions 5.11, 5.13-5.14: 'comprehensive and individualised plan'.",
+        "limitation": "Organisational care standard, not a legal discharge test, prescribing authority or guarantee of service availability.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "80dc4049f0031755aa4c7f10f235885687d51c9a54947b2f2b2cbc7036a6512b"
+    },
+    {
+      "id": "lgbtq",
+      "partition": "domain_safe",
+      "title": "Sexual orientation, gender and non-coercive care",
+      "content": "RANZCP opposes conversion practices intended to change or suppress sexual orientation or gender identity, citing potential harm. Family or religious pressure does not make such a practice a supported therapeutic goal.",
+      "tags": [
+        "sexual",
+        "orientation",
+        "gay",
+        "lgbtq",
+        "conversion",
+        "gender",
+        "religion",
+        "family"
+      ],
+      "source": {
+        "url": "https://www.ranzcp.org/getmedia/c62f3fdf-1d6a-44d9-8812-808105d1cc88/ranzcp-submission-consultation-into-banning-lgbtiq-conversion-practices.pdf",
+        "publisher": "RANZCP",
+        "jurisdiction": "Australia; professional position, 2023 NSW consultation",
+        "excerpt": "Submission 24 August 2023: 'risk causing significant harm'.",
+        "limitation": "Professional opposition, not a statement of the current criminal law or treatment rules in every jurisdiction.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "85b4d42f7aaf95ee72d7150972bdd3be4ca0d9309f30e78796af1ee502a593d8"
+    },
+    {
+      "id": "crisis-lifeline",
+      "partition": "universal",
+      "title": "Australian crisis support",
+      "content": "In Australia, Lifeline offers crisis support by phone at 13 11 14, available around the clock. If life is in danger, call 000. These contacts do not replace an individual assessment or establish confidentiality guarantees.",
+      "tags": [
+        "crisis_support",
+        "suicide",
+        "self-harm",
+        "safety"
+      ],
+      "source": {
+        "url": "https://www.lifeline.org.au/get-help/national-services/lifeline-crisis-support",
+        "publisher": "Lifeline Australia",
+        "jurisdiction": "Australia",
+        "excerpt": "Get Help and What we do: 'If life is in danger, call 000'.",
+        "limitation": "Only selected for safety-relevant questions; no promise about anonymity, confidentiality exceptions, response time or clinical treatment.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "7b7e253866d7d475a66c920b9af177fb744ab9d767957a88a2331beffe1d07f2"
+    },
+    {
+      "id": "framing-recipient",
+      "partition": "framing:recipient",
+      "title": "Perspective for care discussion",
+      "content": "Questions about your care goals, available choices and preferred support people can guide discussion.",
+      "tags": [
+        "communication",
+        "care"
+      ],
+      "source": {
+        "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/comprehensive-care-standard",
+        "publisher": "Australian Commission on Safety and Quality in Health Care",
+        "jurisdiction": "Australia; NSQHS comprehensive care",
+        "excerpt": "Action 5.13; role-framing paraphrase of patient goals and desired support participation.",
+        "limitation": "Harmless communication framing; creates no professional authority or factual entitlement.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "55b01ad7b963d25d880b077745994ff0853650f82dea691b96d2c55c81e99271"
+    },
+    {
+      "id": "framing-third-party",
+      "partition": "framing:third-party",
+      "title": "Perspective for care discussion",
+      "content": "Support can be discussed around the person's own goals and preferences, including whom they want involved.",
+      "tags": [
+        "communication",
+        "care"
+      ],
+      "source": {
+        "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/comprehensive-care-standard",
+        "publisher": "Australian Commission on Safety and Quality in Health Care",
+        "jurisdiction": "Australia; NSQHS comprehensive care",
+        "excerpt": "Action 5.13; role-framing paraphrase of patient goals and desired support participation.",
+        "limitation": "Harmless communication framing; creates no professional authority or factual entitlement.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "7bf859b830f4a9d464559049bdc0d5cf8e5eae53b12e8bf82c33bbd9e5657009"
+    },
+    {
+      "id": "framing-practitioner",
+      "partition": "framing:practitioner",
+      "title": "Perspective for care discussion",
+      "content": "Organise the care discussion around assessed needs, shared goals and appropriate follow-up.",
+      "tags": [
+        "communication",
+        "care"
+      ],
+      "source": {
+        "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/comprehensive-care-standard",
+        "publisher": "Australian Commission on Safety and Quality in Health Care",
+        "jurisdiction": "Australia; NSQHS comprehensive care",
+        "excerpt": "Action 5.13; role-framing paraphrase of patient goals and desired support participation.",
+        "limitation": "Harmless communication framing; creates no professional authority or factual entitlement.",
+        "retrieved_at": "2026-09-09"
+      },
+      "unit_sha256": "3c745d9ca4ba243f835a80dc935cb41bfc0ffe75431528d1b70e472ad89ca8a3"
+    }
+  ],
+  "manifest_sha256": "a1de8901d949c854c7fc15602fe9b0e4eaceedc190e5f6e8797c2a255e952529"
+}

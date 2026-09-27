@@ -1,0 +1,20 @@
+{
+  "suite_id": "psychethicseval-phase2-v1",
+  "datasets": {
+    "mcq": {
+      "path": "../../dataSET/mcq_phase_2.json",
+      "sha256": "87fa8803fd6123b8c07c233bb0cce4ba17b5b591f14b7a0a900f9b68bf0aea50",
+      "count": 1277
+    },
+    "oeq": {
+      "path": "../../dataSET/oeq_phase_2.json",
+      "sha256": "0d9ce75f00579c4f73a9e0304186c0e8af98d5dc783aca2ad60d578773806da9",
+      "count": 2512
+    }
+  },
+  "labels": {
+    "mcq_answer_key": false,
+    "oeq_inquirer": false
+  },
+  "selection": {}
+}
